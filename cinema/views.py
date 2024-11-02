@@ -1,5 +1,5 @@
 from django.db.models import F, Count
-from django.utils.dateparse import parse_date
+
 from rest_framework import viewsets, status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
@@ -10,8 +10,8 @@ from cinema.models import (
     CinemaHall,
     Movie,
     MovieSession,
-    Order)
-
+    Order
+)
 from cinema.serializers import (
     GenreSerializer,
     ActorSerializer,
