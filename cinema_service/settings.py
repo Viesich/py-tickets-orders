@@ -137,4 +137,4 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-DJANGO_SETTINGS_MODUL = "cinema_service.settings"
+DJANGO_SETTINGS_MODULE = "cinema_service.settings"

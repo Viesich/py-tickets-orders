@@ -125,8 +125,3 @@ class OrderSerializer(serializers.ModelSerializer):
             "tickets__movie_session__cinema_hall",
             "tickets__movie_session__movie"
         )
-
-    def get_serializer_class(self):
-        if self.action == "list":
-            return OrderSerializer
-        return OrderSerializer
